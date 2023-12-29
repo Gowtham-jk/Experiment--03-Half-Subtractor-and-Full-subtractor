@@ -1,3 +1,5 @@
+#### Name : Gowtham V
+#### Register number : 23006362
 # Experiment--03-Half-Subtractor-and-Full-subtractor
 ## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
 ## AIM:
@@ -26,29 +28,52 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
-
-
-
-Write the detailed procedure here 
+1.Use module projname(input,output) to start the Verilog programmming. 
+2.Assign inputs and outputs using the word input and output respectively.
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
+4.Use each output to represnt onre for differnce and the other for borrow. 5.End the verilog program using keyword endmodule
 
 
 ## Program:
-/*
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-
-## Output:
+## HALF SUBTRACTER:
+module halfsub(diff,carry,a,b);
+input a,b;
+output diff,carry;
+xor(diff,a,b);
+assign carry=(~a)&b;
+endmodule
+## FULL SUBTRACTER:
+module fullsub(diff,carry,a,b,c);
+input a,b,c;
+output diff,carry;
+xor(diff,a,b,c);
+assign carry= (~a)&c | (~a)&b | (b&c);
+endmodule
 
 ## Truthtable
+## HALF SUBTRACTER:
+![HALF ADDER TT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/1efc0409-c058-4045-acfc-b936e469c6d2)
+## FULL SUBTRACTER:
+
+![FULL ADDER TT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/592bb48a-71ff-445c-a524-b7ff528c75e2)
+
+
 
 
 
 ##  RTL realization
+## HALF SUBTRACTER:
+![HALF SUB RTL](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/6d8ab921-d8bb-41ce-a463-6c4a5149c2c6)
+## FULL SUBTRACTER:
+![FULL SUB RTL](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/f24cb501-c32e-4ede-9d8a-01860b0c58fa)
 
 
-## Timing diagram 
+## OUTPUT:
+## HALF SUBTRACTER:
+![HALF SUB OUTPUT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/aacf5ff3-a332-45ac-a161-5a78cb45508b)
+## FULL SUBTRACTER:
+![FULL SUB OUTPUT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/85e49820-8143-470b-af29-3221b0d0d808)
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
