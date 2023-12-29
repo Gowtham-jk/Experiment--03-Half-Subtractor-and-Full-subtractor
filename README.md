@@ -1,5 +1,5 @@
-#### Name : Gowtham V
-#### Register number : 23006362
+## Name : Gowtham V
+## Register number : 23006362
 # Experiment--03-Half-Subtractor-and-Full-subtractor
 ## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
 ## AIM:
