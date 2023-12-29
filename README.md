@@ -59,7 +59,8 @@ endmodule
 
 ## FULL SUBTRACTER:
 
-![Uploading FULL SUB TT.jpg…]()
+![FULL SUB TT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/d7a59ee2-48a6-4095-ac82-db64508520ea)
+
 
 
 
