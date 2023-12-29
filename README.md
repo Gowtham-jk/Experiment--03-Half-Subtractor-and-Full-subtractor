@@ -55,11 +55,11 @@ endmodule
 ```
 ## Truthtable
 ## HALF SUBTRACTER:
-![HALF ADDER TT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/1efc0409-c058-4045-acfc-b936e469c6d2)
+![HALF SUB TT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/0bb4ca05-8bed-4397-92e5-07d0e0a839d5)
+
 ## FULL SUBTRACTER:
 
-![FULL ADDER TT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/592bb48a-71ff-445c-a524-b7ff528c75e2)
-
+![Uploading FULL SUB TT.jpg…]()
 
 
 
