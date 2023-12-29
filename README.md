@@ -36,20 +36,23 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Program:
 ## HALF SUBTRACTER:
+```
 module halfsub(diff,carry,a,b);
 input a,b;
 output diff,carry;
 xor(diff,a,b);
 assign carry=(~a)&b;
 endmodule
+```
 ## FULL SUBTRACTER:
+```
 module fullsub(diff,carry,a,b,c);
 input a,b,c;
 output diff,carry;
 xor(diff,a,b,c);
 assign carry= (~a)&c | (~a)&b | (b&c);
 endmodule
-
+```
 ## Truthtable
 ## HALF SUBTRACTER:
 ![HALF ADDER TT](https://github.com/Gowtham-jk/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/149857834/1efc0409-c058-4045-acfc-b936e469c6d2)
